@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="muse.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <title>Jobs from the Muse</title>
+  </head>
+
+  <body>
+    <div id='container'>
+      <div id='header'>Check out these jobs at the Muse!</div>
+      <form id="search" action="#">
+        <table>
+          Enter your search terms below. Please write location as "city, state" or "city, country" for international locations. Search is currently case
+          <tr>
+            <td>Company</td>
+            <td><input type="text" name="company"></td>
+          </tr>
+          <tr>
+            <td>Location</td>
+            <td><input type="text" name="location"></td>
+          <tr>
+          <tr>
+            <td>Experience Level</td>
+            <td><input type="checkbox" value="Internship" name='internship'>Internship
+            <input type="checkbox" value="Entry Level" name='entry-level'>Entry Level
+            <input type="checkbox" value="Mid Level" name='mid-level'>Mid Level
+            <input type="checkbox" value="Senior Level" name='senior-level'>Senior Level
+            </td>
+          </tr>
+          <td><input type="submit" value="Search">
+        </table>
+      </form>
+    </div>
+  </body>
+
+</html>
